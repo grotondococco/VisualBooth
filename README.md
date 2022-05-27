@@ -80,8 +80,8 @@ Una prima etichetta <OK> appare alla destra della codifica di Bitpair non appena
 # Riconoscimenti
 La versione è stata rilasciata in data 15/02/2020.
 La nascita e lo sviluppo del progetto sono da attribuire interamente a:
-Giacomo Rotondo Cocco
-Alfio Alessandro Privitera
-Giuseppe Mazzara
+- [Alfio Alessandro Privitera](https://github.com/AlfioA)
+- [Giacomo Andrea Rotondo Cocco](https://github.com/coccojack)
+- [Giuseppe Mazzara]
 Studenti dell’Università degli Studi di Catania, L-31 Informatica.
 
