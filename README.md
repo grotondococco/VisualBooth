@@ -1,5 +1,5 @@
 # Release Notes
-L’applicativo si pone l’obiettivo di presentare visivamente il funzionamento del noto Algoritmo di Booth facendo uso di un’interfaccia grafica completa sviluppata in Java, in ambiente Processing. Le operazioni sono da  intendersi a lunghezza fissa di 8 bit.
+## L’applicativo si pone l’obiettivo di presentare visivamente il funzionamento del noto Algoritmo di Booth facendo uso di un’interfaccia grafica completa sviluppata in Java, in ambiente Processing. Le operazioni sono da  intendersi a lunghezza fissa di 8 bit.
 # Presentazione
 
 ## ![Main Menu](https://github.com/coccojack/VisualBooth/blob/main/screenshots/menu_principale.PNG)
@@ -78,10 +78,10 @@ prima calcolare separatamente la cod. di Booth, dalla quale poi ricavare quella 
 Una prima etichetta <OK> appare alla destra della codifica di Bitpair non appena essa è stata indovinata. Successivamente, se la soluzione è corretta, il programma restituirà <OK> in basso a destra.
 
 # Riconoscimenti
-La versione è stata rilasciata in data 15/02/2020.
 La nascita e lo sviluppo del progetto sono da attribuire interamente a:
 - [Alfio Alessandro Privitera](https://github.com/AlfioA)
 - [Giacomo Andrea Rotondo Cocco](https://github.com/coccojack)
 - [Giuseppe Mazzara]
+<br>
 Studenti dell’Università degli Studi di Catania, L-31 Informatica.
 
