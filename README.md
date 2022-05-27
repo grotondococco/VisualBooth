@@ -81,7 +81,7 @@ Una prima etichetta <OK> appare alla destra della codifica di Bitpair non appena
 La nascita e lo sviluppo del progetto sono da attribuire interamente a:
 - [Alfio Alessandro Privitera](https://github.com/AlfioA)
 - [Giacomo Andrea Rotondo Cocco](https://github.com/coccojack)
-- [Giuseppe Mazzara]
+- [Giuseppe Mazzara](https://github.com/Hollerith98T)
 <br>
 Studenti dell’Università degli Studi di Catania, L-31 Informatica.
 
