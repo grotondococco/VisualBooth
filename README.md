@@ -1,5 +1,5 @@
-# Release Notes
-## L’applicativo si pone l’obiettivo di presentare visivamente il funzionamento del noto Algoritmo di Booth facendo uso di un’interfaccia grafica completa sviluppata in Java, in ambiente Processing. Le operazioni sono da  intendersi a lunghezza fissa di 8 bit.
+# Note di rilascio
+### L’applicativo si pone l’obiettivo di presentare visivamente il funzionamento del noto Algoritmo di Booth facendo uso di una GUI sviluppata in Processing, un linguaggio ereditato da Java. Le operazioni sono da  intendersi a lunghezza fissa di 8 bit.
 # Presentazione
 
 ## ![Main Menu](https://github.com/coccojack/VisualBooth/blob/main/screenshots/menu_principale.PNG)
