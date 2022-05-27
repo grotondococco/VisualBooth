@@ -2,7 +2,7 @@
 L’applicativo si pone l’obiettivo di presentare visivamente il funzionamento del noto Algoritmo di Booth facendo uso di un’interfaccia grafica completa sviluppata in Java, in ambiente Processing. Le operazioni sono da  intendersi a lunghezza fissa di 8 bit.
 # Presentazione
 
-Immagine
+## ![Main Menu](https://github.com/coccojack/VisualBooth/blob/main/screenshots/menu_principale.PNG)
 Avviando il Software il menù principale presenta tre opzioni per il prodotto, indicate in figura dalle frecce rosse.
 Esse sono:
 1. Prodotto naturale
@@ -17,7 +17,7 @@ Trattasi del più semplice dei prodotti, analogamente all’algoritmo utilizzato
 3. L’operazione si ripete per ogni cifra del secondo fattore.
 4. Il risultato è calcolato sommando per colonna le cifre di tutti i passi, tenendo in considerazione il riporto.
 
-Immagine
+## ![Simulazione Naturale](https://github.com/coccojack/VisualBooth/blob/main/screenshots/sim_naturale.PNG)
 Sarà possibile eseguire il prodotto come nell'usuale operazione sui numeri decimali, utilizzando numeri binari in rappresentazione binaria naturale. Per procedere sarà sufficiente alterare i valori contenuti nel moltiplicando
 e nel moltiplicatore in alto a destra cliccandoci sopra. 
 Una volta impostati i numeri premendo START sarà possibile vedere ogni singolo passaggio fino al risultato.
@@ -30,7 +30,7 @@ La codifica di Booth del secondo fattore si ricava nel seguente modo:
     - La codifica per ogni coppia è la seguente: 11=0 ; 00=0; 10=-1; 01=1.
 2. La seconda fase si articola moltiplicando la codifica di Booth del secondo fattore ottenuta per il primo fattore. L’operazione si svolge in maniera analoga a quella in colonna, a differenza che quando la cifra è -1 si effettua il complemento a due del primo fattore come risultato del prodotto per la cifra della codifica.
 
-Immagine
+## ![Simulazione Booth](https://github.com/coccojack/VisualBooth/blob/main/screenshots/sim_booth.PNG)
 Dall’istanza in immagine sarà possibile eseguire il prodotto con algoritmo di Booth.
 Come per gli altri algoritmi sarà sufficiente alterare i valori contenuti nel moltiplicando e nel moltiplicatore in alto a destra cliccandoci sopra. Una volta impostati i numeri premendo START sarà possibile vedere ogni singolo passaggio fino al risultato.
 Il software è inoltre in grado di mostrare la codifica di Booth del secondo fattore evidenziando al passaggio del puntatore le cifre prese in considerazione.
@@ -43,31 +43,34 @@ Esso è un evoluzione dell’algoritmo di Booth, ideato per compiere meno operaz
 4. Una volta ottenuta la codifica la moltiplicazione si svolge in maniera analoga a quella con codifica di Booth, a differenza che quando la cifra della codifica è +2 si effettua uno shift di una posizione a sinistra della cifra, altrimenti se la cifra è -2, oltre allo shift a sinistra si fa la conversione del primo fattore in complemento 
 a due.
 
-Immagine
+## ![Simulazione Bitpair](https://github.com/coccojack/VisualBooth/blob/main/screenshots/sim_bitpair.PNG)
 Analogamente a quanto visto per gli altri algoritmi è possibile eseguire l prodotto con bitpair alterando i valori contenuti nel moltiplicando e nel moltiplicatore in alto a destra cliccandoci sopra. Una volta impostati i numeri premendo START sarà possibile vedere ogni singolo passaggio fino al risultato.
 Viene mostrata la codifica in BitPair del secondo fattore, la quale prevede quattro cifre alternate da o perazioni nulle, in corrispondenza delle quali i passi dell’operazioni di moltiplicazione sono tutti zeri.
 Quando la cifra della codifica è 2 o -2, una serie di «<<« notifica che è avvenuto uno shift sinistro.
 Per ognuno degli algoritmi presentati è possibile tornare indietro utilizzando la funzione apposita «Ritorna al menù» in alto a sinistra
 
 # Modalità Quiz
-Immagine
+## ![Quiz Menu](https://github.com/coccojack/VisualBooth/blob/main/screenshots/menu_quiz.PNG)
 Per allenarsi e mettersi alla prova è stata implementata una modalità chiamata «quiz» (indicata dalla freccia rossa nell’immagine a sinistra) che permette di testare le proprie conoscenze in tutti e tre gli algoritmi: 
 Prodotto Naturale, Algoritmo di Booth e Algoritmo Bitpair.
 Una volta selezionata la modalità è sufficiente scegliere l’algoritmo desiderato.
 
 # Facile
+## ![Quiz Facile](https://github.com/coccojack/VisualBooth/blob/main/screenshots/quiz_naturale.PNG)
 In questa modalità nella sessione «prodotto naturale» l’obiettivo dell’utilizzatore è calcolare il risultato dei
 valori generati casualmente premendo il pulsante <start> in alto al centro.
 Una comoda etichetta sulla destra ti ricorderà di essere nella modalità desiderata.
 Se la soluzione è corretta il programma restituirà <OK> come nell’immagine di esempio.
  
 # Media
+## ![Quiz Medio](https://github.com/coccojack/VisualBooth/blob/main/screenshots/quiz_booth.PNG)
 In questa modalità nella sessione «Algoritmo di Booth» l’obiettivo dell’utilizzatore è indovinare prima la codifica di Booth e solo a quel punto calcolare il risultato.
 Una prima etichetta <OK>, come in figura, appare non appena la codifica di Booth è stata indovinata.
 Una prima etichetta <OK> appare alla destra della codifica di Booth non appena essa è stata indovinata. 
 Successivamente, se la soluzione è corretta, il programma restituirà <OK> in basso a destra.
 
 # Difficile
+## ![Quiz Difficile](https://github.com/coccojack/VisualBooth/blob/main/screenshots/quiz_bitpair.PNG)
 In questa modalità nella sessione «Bitpair» come per l’algoritmo di Booth l’obiettivo dell’utilizzatore è indovinare prima la codifica Bitpair e solo allora calcolare il risultato.
 Questa è la modalità quiz più impegnativa delle tre, poiché bisognerà: 
 prima calcolare separatamente la cod. di Booth, dalla quale poi ricavare quella Bitpair;
